@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+  @apply bg-gray-200 pb-16 ;
+
+}
+
+h1 , h2,h3,h4,h5{
+  font-family: 'Rubik', sans-serif;
+}
+
+a{
+  @apply text-blue-500;
+}
+p{
+  @apply text-gray-500 mb-6 leading-relaxed;
+}
+.container{
+  @apply w-10/12 mx-auto ;
+}
+pre{
+  @apply break-all whitespace-pre-wrap ;
+}
